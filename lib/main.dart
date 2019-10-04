@@ -112,7 +112,7 @@ class _MyAppState extends State<MyApp> {
                 alignment: Alignment.center,
                 child: Text(
                   'Paris Eiffel Tower',
-                  style: TextStyle(fontSize: 30),
+                  style: TextStyle(fontSize: 30, fontFamily: 'cookie'),
                 ),
               )),
             ),

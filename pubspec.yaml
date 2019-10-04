@@ -59,6 +59,9 @@ flutter:
     - family: century
       fonts:
         - asset: font/GOTHIC.ttf
+    - family: cookie
+      fonts:
+        - asset: font/CookieRun Black_0.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
