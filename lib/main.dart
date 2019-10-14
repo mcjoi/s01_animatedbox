@@ -77,8 +77,9 @@ class _MyAppState extends State<MyApp> {
               duration: Duration(milliseconds: 3000),
               isRepeatingAnimation: false,
               text: [
-                'The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.\n'
-                    'It is named after the engineer Gustave Eiffel, whose company designed and built the tower.',
+                'Seoul Zoo is home to almost 3,000 animals belonging to about 350 species from all over the world. \n ' +
+                    'The zoo is the 10th largest in the world and a recognized member of the International Species Information System (ISIS)' +
+                    'and the World Zoo Organization',
               ],
               textStyle: TextStyle(
                   fontSize: 12.0,
@@ -111,7 +112,7 @@ class _MyAppState extends State<MyApp> {
                 // color: Colors.red,
                 alignment: Alignment.center,
                 child: Text(
-                  'Paris Eiffel Tower',
+                  'Seoul Grand Park',
                   style: TextStyle(fontSize: 30, fontFamily: 'cookie'),
                 ),
               )),
@@ -173,7 +174,7 @@ class _MyAppState extends State<MyApp> {
                           duration: Duration(milliseconds: 2000),
                           decoration: BoxDecoration(
                             image: DecorationImage(
-                              image: AssetImage('img/paris.webp'),
+                              image: AssetImage('img/sp1.jpg'),
                               fit: BoxFit.cover,
                             ),
                             boxShadow: [
@@ -238,9 +239,16 @@ class _MyAppState extends State<MyApp> {
                           duration: Duration(milliseconds: 2000),
                           decoration: BoxDecoration(
                             image: DecorationImage(
-                              image: AssetImage('img/paris2.jpg'),
+                              image: AssetImage('img/sp2.jpg'),
                               fit: BoxFit.cover,
                             ),
+                            boxShadow: [
+                              BoxShadow(
+                                color: Color.fromARGB(80, 0, 0, 0),
+                                offset: Offset(5, 3),
+                                blurRadius: 3,
+                              )
+                            ],
                             borderRadius: BorderRadius.circular(maxCircular2),
                             color: Colors.white,
                           ),
@@ -296,9 +304,16 @@ class _MyAppState extends State<MyApp> {
                           duration: Duration(milliseconds: 2000),
                           decoration: BoxDecoration(
                             image: DecorationImage(
-                              image: AssetImage('img/paris3.jpg'),
+                              image: AssetImage('img/sp3.jpg'),
                               fit: BoxFit.cover,
                             ),
+                            boxShadow: [
+                              BoxShadow(
+                                color: Color.fromARGB(80, 0, 0, 0),
+                                offset: Offset(5, 3),
+                                blurRadius: 3,
+                              )
+                            ],
                             borderRadius: BorderRadius.circular(maxCircular3),
                             color: Colors.white,
                           ),
