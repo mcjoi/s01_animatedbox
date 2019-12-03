@@ -1,7 +1,7 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
 export "FLUTTER_ROOT=C:\flutter_windows_v1.5.4-hotfix.2-stable\flutter"
-export "FLUTTER_APPLICATION_PATH=F:\workspace\Flutter\phone\flutterMovie\s01_box"
+export "FLUTTER_APPLICATION_PATH=C:\workspace\0 flutterMovie\s01_box"
 export "FLUTTER_TARGET=lib\main.dart"
 export "FLUTTER_BUILD_DIR=build"
 export "SYMROOT=${SOURCE_ROOT}/../build\ios"

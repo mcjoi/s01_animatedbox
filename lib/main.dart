@@ -57,7 +57,7 @@ class _MyAppState extends State<MyApp> {
                 ],
                 textStyle: TextStyle(
                   fontSize: 20.0,
-                  fontFamily: 'Century',
+                  fontFamily: 'century',
                   color: Colors.black26,
                 ),
                 textAlign: TextAlign.start,
@@ -83,7 +83,7 @@ class _MyAppState extends State<MyApp> {
               ],
               textStyle: TextStyle(
                   fontSize: 12.0,
-                  fontFamily: 'Century',
+                  fontFamily: 'century',
                   color: Colors.black,
                   shadows: [
                     Shadow(color: Colors.grey[400], offset: Offset(1, 1)),

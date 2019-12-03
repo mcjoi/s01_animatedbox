@@ -19,6 +19,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
   animated_text_kit: ^1.3.1
 
   # The following adds the Cupertino Icons font to your application.
@@ -58,10 +59,10 @@ flutter:
   fonts:
     - family: century
       fonts:
-        - asset: font/GOTHIC.ttf
+        - asset: font/GOTHIC.TTF
     - family: cookie
       fonts:
-        - asset: font/CookieRun Black_0.ttf
+        - asset: font/Coo.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
