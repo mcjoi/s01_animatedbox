@@ -4,12 +4,13 @@ import 'package:flutter/material.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 
 void main() => runApp(MaterialApp(
-      theme: ThemeData(
-        textTheme: TextTheme(
-          title: TextStyle(fontFamily: "century", color: Colors.white),
-          body1: TextStyle(fontFamily: "century", color: Colors.white),
-        ),
-      ),
+      // theme: ThemeData(
+      //   textTheme: TextTheme(
+
+      //     title: TextStyle(fontFamily: "century", color: Colors.white),
+      //     body1: TextStyle(fontFamily: "century", color: Colors.white),
+      //   ),
+      // ),
       home: MyApp(),
     ));
 
@@ -40,28 +41,30 @@ class _MyAppState extends State<MyApp> {
           appBar: AppBar(
             title: Text('second page'),
           ),
-          body: Padding(
-            padding: const EdgeInsets.all(10.0),
-            child: Container(
-              width: double.infinity,
-              height: double.infinity,
-              color: Colors.white,
-              child: TypewriterAnimatedTextKit(
-                duration: Duration(milliseconds: 3000),
-                isRepeatingAnimation: false,
-                onTap: () {
-                  print('Tap event');
-                },
-                text: [
-                  'The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris,\n France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower.',
-                ],
-                textStyle: TextStyle(
-                  fontSize: 20.0,
-                  fontFamily: 'century',
-                  color: Colors.black26,
+          body: SingleChildScrollView(
+            child: Padding(
+              padding: const EdgeInsets.all(10.0),
+              child: Container(
+                width: double.infinity,
+                height: double.infinity,
+                color: Colors.white,
+                child: TypewriterAnimatedTextKit(
+                  duration: Duration(milliseconds: 3000),
+                  isRepeatingAnimation: false,
+                  onTap: () {
+                    print('Tap event');
+                  },
+                  text: [
+                    'The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris,\n France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower.',
+                  ],
+                  textStyle: TextStyle(
+                    fontSize: 20.0,
+                    fontFamily: 'century',
+                    color: Colors.black26,
+                  ),
+                  textAlign: TextAlign.start,
+                  alignment: AlignmentDirectional.topStart,
                 ),
-                textAlign: TextAlign.start,
-                alignment: AlignmentDirectional.topStart,
               ),
             ),
           ),
